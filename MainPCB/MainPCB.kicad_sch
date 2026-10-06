@@ -1,0 +1,270 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1001fe40-5908-4aa8-8d57-88a50fa6a431")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 26.67 24.13)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2ee6be93-4e94-4e8e-81ae-327113394b51")
+		(property "Sheetname" "MCU"
+			(at 26.67 23.4184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mcu.kicad_sch"
+			(at 26.67 57.7346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "MainPCB"
+				(path "/1001fe40-5908-4aa8-8d57-88a50fa6a431"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 33.02)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6a8f86a9-a25b-4a1d-ae78-064bd7c87f04")
+		(property "Sheetname" "CANbus"
+			(at 86.36 32.3084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "can.kicad_sch"
+			(at 86.36 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "S{slash}STB" input
+			(at 109.22 43.18 0)
+			(uuid "27010b8a-e275-48ea-80bc-cf5485165d00")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "TXD" input
+			(at 109.22 35.56 0)
+			(uuid "1e2c309e-6c65-4c41-b94c-d7160752062f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RXD" input
+			(at 109.22 38.1 0)
+			(uuid "e9dcac17-482b-48f6-b1de-e99a527b7fe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "GND" input
+			(at 86.36 40.64 180)
+			(uuid "f60a7a44-d779-4113-80df-b0b4d7a3d4ba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SHDN{slash}FAULT" input
+			(at 109.22 40.64 0)
+			(uuid "97e1c5be-05f3-4400-972d-6930479b1996")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "3V3" input
+			(at 86.36 38.1 180)
+			(uuid "b3179ff4-3cea-4519-8dd6-210eacd19808")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "MainPCB"
+				(path "/1001fe40-5908-4aa8-8d57-88a50fa6a431"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 54.61)
+		(size 22.86 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b52f4c20-beab-40d2-a19f-e36423db8f82")
+		(property "Sheetname" "Indicator Lights"
+			(at 86.36 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "indicator_lights.kicad_sch"
+			(at 86.36 67.8946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "5V" input
+			(at 86.36 58.42 180)
+			(uuid "7c254997-ac24-46c3-a01d-2e5f1b38029b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DIN" input
+			(at 86.36 60.96 180)
+			(uuid "c05e8e88-b4f5-4059-b093-1bc20ae31689")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "GND" input
+			(at 86.36 63.5 180)
+			(uuid "abdf44b8-1910-4d53-a264-780da379d2b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "EXT_TS_OFF" input
+			(at 109.22 57.15 0)
+			(uuid "a718f6d7-a8fe-4f02-a210-3c32c554216d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_AMS_OK" input
+			(at 109.22 59.69 0)
+			(uuid "237b41e8-217c-4105-b284-54bd23d24b31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_IMD_OK" input
+			(at 109.22 62.23 0)
+			(uuid "d46aa922-a81b-4bcf-a0f1-eeb4cc9cefc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "EXT_GND" input
+			(at 109.22 64.77 0)
+			(uuid "32aecc7f-59ed-455e-ba9a-63c13589eb9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "MainPCB"
+				(path "/1001fe40-5908-4aa8-8d57-88a50fa6a431"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

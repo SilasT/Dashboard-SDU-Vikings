@@ -1,0 +1,57 @@
+# ---------------------------------------------------------------
+# KiCad
+# ---------------------------------------------------------------
+
+# Lock files (created while a project/sheet is open)
+*.lck
+~*.lck
+.~lock.*
+\#auto_saved_files#
+_autosave-*
+
+# Local project settings (windows, visible layers, etc.)
+*.kicad_prl
+
+# Backups
+*-backups/
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*-bak
+*~
+
+# Cache files
+fp-info-cache
+*.cache
+*-cache.lib
+*-cache.dcm
+
+# Temporary / generated files from KiCad
+*.tmp
+*.net
+*.dsn
+*.ses
+*.erc
+*.drc
+*-rpt.txt
+*.rpt
+
+# Fabrication output (remove these lines if you want to commit gerbers etc.)
+*.gbr
+*.gbrjob
+*.drl
+*.pos
+gerber/
+Gerber/
+fab/
+production/
+
+# ---------------------------------------------------------------
+# OS / editor
+# ---------------------------------------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
